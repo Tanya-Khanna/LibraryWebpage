@@ -7,7 +7,7 @@ def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_image("rutgers_logo.png")
+img_base64 = get_base64_image("library_webpage/rutgers_logo.png")
 
 st.markdown(f"""
     <div style="text-align: center; padding-top: 20px;">
@@ -191,11 +191,11 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 gif_files = {
-    "Python": "python_gif.gif",
-    "Data Analysis": "data_analysis_gif.gif",
-    "Data Science": "data_science_gif.gif",
-    "Advanced Data Science": "advanced_data_science_gif.gif",
-    "Generative AI": "generative_ai_gif.gif"
+    "Python": "library_webpage/python_gif.gif",
+    "Data Analysis": "library_webpage/data_analysis_gif.gif",
+    "Data Science": "library_webpage/data_science_gif.gif",
+    "Advanced Data Science": "library_webpage/advanced_data_science_gif.gif",
+    "Generative AI": "library_webpage/generative_ai_gif.gif"
 }
 
 gif_path = gif_files[selected_topic]

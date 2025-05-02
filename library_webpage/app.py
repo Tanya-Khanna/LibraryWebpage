@@ -427,7 +427,7 @@ if selected_topic == "Advanced Data Science":
         },
         "RecSys": {
             "title": "Building Intelligent Recommendation Systems (Spring 2025 workshop)",
-            "image": "library_webpage/mages/0_0GclG1YS4i6O2mKV.png",
+            "image": "library_webpage/images/0_0GclG1YS4i6O2mKV.png",
             "desc": "Dive into the fascinating world of recommender systems, the backbone of personalized experiences in today’s digital age. In this workshop, you’ll uncover how platforms like Netflix, Amazon, and Spotify predict what users want. Participants will gain insights into popular algorithms, including collaborative and content-based filtering, and apply these techniques to create intelligent recommendation solutions.",
             "code": "https://github.com/Tanya-Khanna/Data-Science-Workshop---Spring-2025---NBL-/tree/main/Workshop%2010/cine-mate",
             "video": "https://rutgers.app.box.com/s/lgy3qxn3o1x52ep99ht3jajedh5qn1rw",
